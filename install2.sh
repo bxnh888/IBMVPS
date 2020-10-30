@@ -23,7 +23,7 @@ echo './v2ray&'>>start.sh
 echo 'sleep 9d'>>start.sh
 echo 'kill -9 $(ps -ef|grep v2ray|grep -v grep|awk "'"{print \$2}"'")'>>start.sh
 echo 'web: ./start.sh'>Procfile
-wget https://github.com/v2ray/v2ray-core/releases/latest/download/v2ray-linux-64.zip
+wget https://github.com/v2ray/v2ray-core/releases/download/v4.31.0/v2ray-linux-64.zip
 unzip -d v2ray v2ray-linux-64.zip
 cd v2ray
 chmod 777 *
