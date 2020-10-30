@@ -62,7 +62,7 @@ clone_repo(){
     echo "进行初始化。。。"
     rm -rf IBMVPS
     rm -rf IBMyes
-    git clone https://github.com/bigfangfang/IBMVPS
+    git clone https://github.com/bxnh888/IBMVPS
     cd IBMVPS
     git submodule update --init --recursive
     cd v2ray-cloudfoundry/v2ray
